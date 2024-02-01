@@ -1,4 +1,4 @@
-.outlineButton {
+.OutlineButton {
        outline: none;
        border: none;
        cursor: pointer;
@@ -31,7 +31,7 @@
        }
      }
      
-     .outlineButton::before {
+     .OutlineButton::before {
        content: "";
        position: absolute;
        z-index: -1;
@@ -46,12 +46,35 @@
        transition: 0.2s left, 0.2s top;
      }
      
-     .outlineButton:hover {
+     .OutlineButton:hover {
        color: var(--text);
      }
      
-     .outlineButton:hover::before {
+     .OutlineButton:hover::before {
        left: 0;
        top: 0;
      }
-     
+
+.StandardButton {
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  padding: 1.2rem 2.4rem;
+
+  background: var(--brand);
+  color: var(--text);
+  font-size: var(--text-sm);
+  border-radius: 4px;
+
+  position: relative;
+  z-index: 20;
+
+  overflow: hidden;
+
+  transition: 0.2s opacity;
+}
+
+.StandardButton:hover {
+  opacity: 0.9;
+}
