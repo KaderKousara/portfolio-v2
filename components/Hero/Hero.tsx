@@ -45,8 +45,8 @@ export const Hero = () => {
                         src={Profile}
                         priority
                         alt="John Carlo Devera | Frontend Developer"
-                        width={600}
-                        height={550}
+                        width={450}
+                        height={400}
                     />
                 </motion.div>
             </div>

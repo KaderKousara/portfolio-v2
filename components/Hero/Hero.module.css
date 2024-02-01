@@ -15,7 +15,7 @@
   position: relative;
   z-index: 10;
   width: fit-content;
-  margin: 2.8rem 0;
+  margin: 4.8rem 0;
 }
 
 .title {
@@ -54,7 +54,7 @@
   z-index: 10;
   position: relative;
   margin-right: 9rem;
-  border-radius: 0%;
+  border-radius: 50%;
   outline: solid;
   outline-width: 3px;
   outline-color: var(--brand);
