@@ -50,7 +50,9 @@
 }
 
 .profile {
-  margin: 2rem;
+  margin-right: -10rem;
+
+  /*margin: 2rem;
   z-index: 10;
   position: relative;
   margin-right: 9rem;
@@ -66,7 +68,7 @@
     outline-color: var(--brand);
     outline-offset: 10px;
     transform: scale(105%);
-  }
+  }*/
 }
 
 .heroGrid {
