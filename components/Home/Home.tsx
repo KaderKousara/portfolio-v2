@@ -1,6 +1,7 @@
 import { Heading } from "@/components/Navigation/Header/header";
 import { NavBarMenu } from "@/components/Navigation/Navbar/NavBarMenu"
 import styles from "./Home.module.scss"
+import {Hero} from "@/components/Hero/Hero";
 export const Home = () => {
        return (
            <>
@@ -8,6 +9,7 @@ export const Home = () => {
                <NavBarMenu/>
                <main id="main">
                    <Heading/>
+                   <Hero />
                    <div
                        style={{
                            height: "200px",
