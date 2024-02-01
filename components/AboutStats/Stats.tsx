@@ -19,13 +19,14 @@ export const Stats = () => {
                         <span className="chip">Tailwind</span>
                         <span className="chip">React</span>
                         <span className="chip">Nextjs</span>
-                        <span className="chip">Vuejs</span>
-                        <span className="chip">Redux</span>
+                        <span className="chip">Redux and RTK</span>
+                        <span className="chip">ReduxThunk</span>
+                        <span className="chip">ReduxSaga</span>
+                        <span className="chip">ContextApi</span>
                         <span className="chip">NodeJS</span>
-                        <span className="chip">Express</span>
-                        <span className="chip">Postgres</span>
-                        <span className="chip">MongoDB</span>
-                        <span className="chip">Firebase</span>
+                        <span className="chip">Nestjs</span>
+                        <span className="chip">Postgresql</span>
+                        <span className="chip">ApolloClient GraphQL</span>
                         <span className="chip">GitHub</span>
                     </div>
                 </div>
@@ -37,17 +38,17 @@ export const Stats = () => {
                         <span>Use for fun</span>
                     </h4>
                     <div className={styles.statGrid}>
-                        <span className="chip">React Native</span>
+                        <span className="chip">StyledComponents</span>
+                        <span className="chip">Scss</span>
+                        <span className="chip">PWA</span>
                         <span className="chip">Gatsby</span>
-                        <span className="chip">Chakra Ui</span>
-                        <span className="chip">Tailwind</span>
+                        <span className="chip">Bootstrap</span>
                         <span className="chip">Figma</span>
-                        <span className="chip">Planetscale</span>
-                        <span className="chip">GraphQL</span>
                         <span className="chip">Firebase</span>
                         <span className="chip">Supabase</span>
                         <span className="chip">Vercel</span>
                         <span className="chip">Laravel</span>
+                        <span className="chip">Vuejs</span>
                     </div>
                 </div>
             </Reveal>

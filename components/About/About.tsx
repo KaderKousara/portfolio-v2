@@ -1,9 +1,9 @@
-import { HeaderLinks } from "@/components/Navigation/HeaderLinks/HeaderLinks";
-import { Reveal } from "@/components/utils/Reveal";
-import { SectionHeader } from "@/components/utils/SectionHeader";
+import {HeaderLinks} from "@/components/Navigation/HeaderLinks/HeaderLinks";
+import {Reveal} from "@/components/utils/Reveal";
+import {SectionHeader} from "@/components/utils/SectionHeader";
 import styles from "./About.module.scss";
-import { Stats } from "@/components/AboutStats/Stats";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import {Stats} from "@/components/AboutStats/Stats";
+import {AiOutlineArrowRight} from "react-icons/ai";
 
 export const About = () => {
     return (
@@ -12,21 +12,33 @@ export const About = () => {
             <div className={styles.about}>
                 <div>
                     <Reveal>
-                        <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-                            Howdy! 🤠  I&apos;m Abdul Kousara.
+                        <p className={styles.aboutText}>
+                            <div className={styles.name}>
+                                <div className={styles.highlightFirstLetter}>Howdy! 🤠 I&apos;m</div>
+                                <div className={styles.highlightFirstLetter}>Abdul</div>
+                                <div className={styles.highlightFirstLetter}>Kousara.</div>
+                            </div>
+
+                            <br/>
+                            highly motivated and passionate software developer.
                             <br/><br/>
-                            I have experience working in Backend and Frontend, with a focus on the web development and the React Ecosystem. I&apos;m passionate about creating beautiful, responsive websites that provide a great user experience.
+                            I have experience working in Backend and Frontend development, but currently I&apos;m
+                            focused in web
+                            development, and I specialize in The React frontend Ecosystem. I&apos;m passionate about
+                            creating beautiful, responsive websites that provide a great user experience.
                         </p>
                     </Reveal>
                     <Reveal>
                         <p className={styles.aboutText}>
-                            My skills include HTML, CSS, JavaScript, and various frontend frameworks like React and Vue.js.
-                            I&apos;ve also worked with backend technologies like Node.js, Firebase, MongoDB and PHP/Laravel , allowing me to build full-stack applications.
+                            My skills include HTML, CSS, JavaScript, Typescript and various frontend frameworks like
+                            React/Next and Vue.js.
+                            I&apos;ve also worked with backend technologies like Nestjs, Node.js, Firebase, Postgresql
+                            and PHP/Laravel, allowing me to build full-stack applications.
                         </p>
                     </Reveal>
                     <Reveal>
                         <p className={styles.aboutText}>
-                            When I&apos;m not coding, I enjoy digital painting.
+                            When I&apos;m not coding, I enjoy Reading and Continuous Learning, I also like Physical fitness
                             I believe that maintaining a healthy work-life balance is crucial for staying productive and motivated.
                         </p>
                     </Reveal>
