@@ -6,6 +6,7 @@ import { DotGrid } from "./DotGrid";*/
 import styles from "./hero.module.scss";
 import Profile from "@/public/thisone.gif";
 import { Button, BUTTON_TYPE_CLASSES } from '@/components/Button/Button';
+import {DotGrid} from "@/components/DotGrid/DotGrid";
 
 export const Hero = () => {
     return (
@@ -61,7 +62,7 @@ export const Hero = () => {
                     />
                 </motion.div>
             </div>
-           {/* <DotGrid />*/}
+            <DotGrid />
         </section>
     );
 };

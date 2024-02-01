@@ -30,11 +30,10 @@
 
 .highlightFirstLetter:first-letter {
   background: var(--background-light);
-  padding: 1rem;
   border-radius: 0.4rem;
-  font-size: var(--text-md);
+  font-size: var(--text-sm);
   font-weight: bold;
-  margin-right: 0.6rem;
+  margin-right: 0.2rem;
   float: left;
 }
 

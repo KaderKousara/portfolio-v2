@@ -50,8 +50,12 @@
 }
 
 .profile {
+  position: relative;
+  z-index: 10;
   margin: 2rem;
-  /*margin: 2rem;
+
+
+ /* margin: 2rem;
   z-index: 10;
   position: relative;
   margin-right: 9rem;

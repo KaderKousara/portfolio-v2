@@ -13,9 +13,9 @@ export const About = () => {
                 <div>
                     <Reveal>
                         <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-                            Howdy! I&apos;m John Carlo Devera, and I&apos;m a Bachelor of Science in Information Technology graduate.
+                            Howdy! 🤠  I&apos;m Abdul Kousara.
                             <br/><br/>
-                            I have experience working in both the mobile and web development worlds, with a focus on frontend development. I&apos;m passionate about creating beautiful, responsive websites that provide a great user experience.
+                            I have experience working in Backend and Frontend, with a focus on the web development and the React Ecosystem. I&apos;m passionate about creating beautiful, responsive websites that provide a great user experience.
                         </p>
                     </Reveal>
                     <Reveal>
