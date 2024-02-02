@@ -21,8 +21,7 @@ export const About = () => {
                             highly motivated and passionate software developer.
                             <br/>
                             I have experience working in Backend and Frontend development, but currently I&apos;m
-                            focused in web
-                            development, and I specialize in The React frontend Ecosystem. I&apos;m passionate about
+                            focused in frontend, and I specialize in The React Ecosystem. I&apos;m passionate about
                             creating beautiful, responsive websites that provide a great user experience.
                         </p></>
                     </Reveal>
@@ -36,7 +35,7 @@ export const About = () => {
                     </Reveal>
                     <Reveal>
                         <p className={styles.aboutText}>
-                            When I&apos;m not coding, I enjoy Reading and Continuous Learning, I also like Physical fitness
+                            When I&apos;m not coding, I enjoy Reading and Continuous Learning, I also like Physical fitness,
                             I believe that maintaining a healthy work-life balance is crucial for staying productive and motivated.
                         </p>
                     </Reveal>

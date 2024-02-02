@@ -32,38 +32,30 @@ const projects = [
             Worked as a Frontend Engineer and created dynamic reusable components
             that were easily testable and could be shared across projects and Ensured
             that all code is well documented, reusable, efficient, and followed best practices.
-            created different types of Charts and Graphs for Data Visualization.
+            created different types of Charts and Graphs for Data Visualization using Recharts.
             created multiple authentication patterns using NextAuth
         </p>
         <p>
-          The tech stack is based on Nextjs with the ,
-          connected to a Laravel backend, with data stored in Mysql.
+            The tech stack is based on Nextjs with Typescript and Tailwind,
+            connected to a Nestjs backend, with data stored in Postgresql.
         </p>
       </>
     ),
   },
   {
-    title: "Agency Iron Admin",
-    imgSrc: "/project-imgs/agency-iron-crm.png",
-    code: "https://www.github.com",
-    // projectLink: "https://agency-iron-crm.herokuapp.com/",
-    projectLink: "#",
-    tech: ["React", "MUI", "MongoDB", "Postgres", "Python"],
+      title: "Mangrove Atlas",
+    imgSrc: "/project-imgs/mangrove.png",
+    code: "https://github.com/Vizzuality/mangrove-atlas",
+    projectLink: "https://www.globalmangrovewatch.org/",
+    tech: ["React", "Redux", "ReduxSaga", "JavaScript"],
     description:
-      "A Dashboard for clients and admin of Rocky Mountain West Insurance LLC. using Vuejs and re-worked using Reactjs.",
+        "Global Mangrove Watch a platform that provides remote sensing data and tools for monitoring real-time information on where and what changes there are to mangroves across the world",
     modalContent: (
       <>
         <p>
-          Worked as a senior developer for this web application. Integrated
-          api&apos;s, Created dynamic and reusable components.
-        </p>
-        <p>
-          I work primarily on the frontend, creating reusable components and
-          integrating api.
-        </p>
-        <p>
-          The team in total consists of 3 developers. This is a passion project
-          for all of us.
+          Worked as a Frontend Engineer Developed features for the platform that provides the remote sensing data and tools. created dynamic reusable components and
+          integrating api with react saga and redux,
+          created different types of Charts and Graphs for Data Visualization using Recharts.
         </p>
       </>
     ),

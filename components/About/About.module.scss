@@ -46,3 +46,26 @@
   display: flex;
   justify-content: space-between;
 }
+
+
+.profile {
+   margin: 2rem;
+   z-index: 10;
+   position: relative;
+   margin-right: 9rem;
+   border-radius: 50%;
+   outline: solid;
+   outline-width: 3px;
+   outline-color: var(--brand);
+   outline-offset: 6px;
+   transition: .4s;
+  width: 250px;
+  height: 250px;
+
+   &:hover {
+     outline: dotted;
+     outline-color: var(--brand);
+     outline-offset: 10px;
+     transform: scale(105%);
+   }
+}
