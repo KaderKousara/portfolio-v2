@@ -9,13 +9,13 @@
     --text: rgb(235, 236, 243);
     --brand: #BD5FFF;
    */
-  --background: rgb(255, 255, 255);
-  --bg-opaque: rgba(17, 17, 17, 0.02);
-  --background-light: rgb(255,255,255);
-  --background-dark: rgb(255,255,255);
+  --background: #BCCCFE;
+  --bg-opaque: rgb(112, 118, 248, 0.01);
+  --background-light: #ced8fd;
+  --background-dark: #aec0fc;
 
-  --text: rgb(17, 17, 17);
-  --brand: #20E484;
+  --text: #2C2C54;
+  --brand: #7076f8;
 
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;

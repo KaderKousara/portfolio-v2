@@ -1,5 +1,5 @@
-import { SectionHeader } from "@/components/utils/SectionHeader";
-import { Project } from "./Project";
+import {SectionHeader} from "@/components/utils/SectionHeader";
+import {Project} from "./Project";
 import styles from "./projects.module.scss";
 
 export const Projects = () => {
@@ -18,21 +18,25 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Elancerz",
-    imgSrc: "/project-imgs/elancerz.png",
-    code: "https://www.github.com",
-    projectLink: "https://elancerz.com/",
-    tech: ["React", "Nextjs", "Sytled Components", "Firebase Auth", "Laravel"],
+      title: "LandGriffon",
+      imgSrc: "/project-imgs/landgriffon.png",
+      code: "https://github.com/Vizzuality/landgriffon",
+      projectLink: "https://landgriffon.com/",
+      // tech: ["React", "Nextjs", "Sytled Components", "Firebase Auth", "Laravel"],
+      tech: ["React", "Nextjs", "TypeScript", "Tailwind", "Nestjs"],
     description:
-      "A Talent finder app for anything around the world. This is my first time as a React developer job.",
+        "empowers companies to measure, manage, and transform agricultural supply chain impacts using an open scientific methodology. I contribute to the development and enhancement of the platform.",
     modalContent: (
       <>
         <p>
-          Worked as a senior developer and created dynamic reusable components,
-          integrated calendly, messaging and project management features.
+            Worked as a Frontend Engineer and created dynamic reusable components
+            that were easily testable and could be shared across projects and Ensured
+            that all code is well documented, reusable, efficient, and followed best practices.
+            created different types of Charts and Graphs for Data Visualization.
+            created multiple authentication patterns using NextAuth
         </p>
         <p>
-          The tech stack is based on Nextjs with the custom Styled components,
+          The tech stack is based on Nextjs with the ,
           connected to a Laravel backend, with data stored in Mysql.
         </p>
       </>

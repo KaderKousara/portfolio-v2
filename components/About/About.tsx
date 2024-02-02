@@ -12,21 +12,19 @@ export const About = () => {
             <div className={styles.about}>
                 <div>
                     <Reveal>
+                        <><div className={`${styles.name} ${styles.aboutText}`}>
+                            <div className={styles.highlightFirstLetter}>Howdy! 🤠 I&apos;m</div>
+                            <div className={styles.highlightFirstLetter}>Abdul</div>
+                            <div className={styles.highlightFirstLetter}>Kousara.</div>
+                        </div>
                         <p className={styles.aboutText}>
-                            <div className={styles.name}>
-                                <div className={styles.highlightFirstLetter}>Howdy! 🤠 I&apos;m</div>
-                                <div className={styles.highlightFirstLetter}>Abdul</div>
-                                <div className={styles.highlightFirstLetter}>Kousara.</div>
-                            </div>
-
-                            <br/>
                             highly motivated and passionate software developer.
-                            <br/><br/>
+                            <br/>
                             I have experience working in Backend and Frontend development, but currently I&apos;m
                             focused in web
                             development, and I specialize in The React frontend Ecosystem. I&apos;m passionate about
                             creating beautiful, responsive websites that provide a great user experience.
-                        </p>
+                        </p></>
                     </Reveal>
                     <Reveal>
                         <p className={styles.aboutText}>

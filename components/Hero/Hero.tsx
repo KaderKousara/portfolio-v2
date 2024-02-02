@@ -4,7 +4,7 @@ import { Reveal } from "@/components/utils/Reveal";
 /*import { StandardButton } from "@/components/buttons/StandardButton";
 import { DotGrid } from "./DotGrid";*/
 import styles from "./hero.module.scss";
-import Profile from "@/public/thisone.gif";
+import Profile from "@/public/thisone1.gif";
 import { Button, BUTTON_TYPE_CLASSES } from '@/components/Button/Button';
 
 export const Hero = () => {
@@ -17,7 +17,7 @@ export const Hero = () => {
 
                             <h1 className={styles.title}>
                                 Hi,
-                                <span className={styles.wavingHand}>👋</span>
+                                <span className={styles.wavingHand}>👋🏻</span>
                             </h1>
                             <h1 className={styles.title}>
                                 I&apos;m AK<span>.</span>

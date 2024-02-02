@@ -8,11 +8,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function home() {
   return (
     <>
-      <Head>
-        <title>Abdul Kousara | Software Developer</title>
+        <Head>
+            <title>Abdul Kousara | Software Developer</title>
+            <link rel="shortcut icon" href="/favicon.png"/>
 
-      </Head>
-      <Home />
+        </Head>
+        <Home/>
     </>
   );
 } 
