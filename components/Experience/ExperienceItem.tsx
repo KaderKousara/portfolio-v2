@@ -1,4 +1,4 @@
-import { Reveal } from "@/components/utils/Reveal";
+import {Reveal} from "@/components/utils/Reveal";
 import styles from "./Experience.module.scss";
 
 interface Props {

@@ -15,7 +15,7 @@ export const HeaderLinks = () => {
               animate={{y: 0, opacity: 1}}
               transition={{duration: 0.5, delay: 0.0}}
           >
-              <Link href="https://www.linkedin.com/" target="_blank" rel="nofollow">
+              <Link href="https://www.linkedin.com/in/abdul-kousara-006938201/" target="_blank" rel="nofollow">
                   <AiFillLinkedin size="2.4rem"/>
               </Link>
           </motion.span>
@@ -25,7 +25,7 @@ export const HeaderLinks = () => {
               animate={{y: 0, opacity: 1}}
               transition={{duration: 0.5, delay: 0.0}}
           >
-              <Link href="https://github.com/" target="_blank" rel="nofollow">
+              <Link href="https://github.com/AbdKousara" target="_blank" rel="nofollow">
                   <AiFillGithub size="2.4rem"/>
               </Link>
           </motion.span>
@@ -36,7 +36,7 @@ export const HeaderLinks = () => {
               animate={{y: 0, opacity: 1}}
               transition={{duration: 0.5, delay: 0.0}}
           >
-              <Link href="https://www.instagram.com/" target="_blank" rel="nofollow">
+              <Link href="https://www.instagram.com/abdu_kousara/" target="_blank" rel="nofollow">
                   <AiFillInstagram size="2.4rem"/>
               </Link>
           </motion.span>
