@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Reveal } from "@/components/utils/Reveal";
 /*import { StandardButton } from "@/components/buttons/StandardButton";
 import { DotGrid } from "./DotGrid";*/
-import styles from "./hero.module.scss";
+import styles from "./Hero.module.scss";
 import Profile from "@/public/thisone1.gif";
 import { Button, BUTTON_TYPE_CLASSES } from '@/components/Button/Button';
 
