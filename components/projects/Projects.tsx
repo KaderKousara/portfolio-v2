@@ -23,7 +23,7 @@ const projects = [
       code: "https://github.com/Vizzuality/landgriffon",
       projectLink: "https://landgriffon.com/",
       // tech: ["React", "Nextjs", "Sytled Components", "Firebase Auth", "Laravel"],
-      tech: ["React", "Nextjs", "TypeScript", "Tailwind", "Nestjs"],
+      tech: ["Nextjs", "TypeScript", "Tailwind", "Nestjs" , "StoryBook"],
     description:
         "empowers companies to measure, manage, and transform agricultural supply chain impacts using an open scientific methodology.",
     modalContent: (
