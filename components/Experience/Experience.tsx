@@ -1,5 +1,5 @@
-import { SectionHeader } from "@/components/utils/SectionHeader";
-import { ExperienceItem } from "./ExperienceItem";
+import {SectionHeader} from "@/components/utils/SectionHeader";
+import {ExperienceItem} from "./ExperienceItem";
 
 export const Experience = () => {
     return (
@@ -14,74 +14,47 @@ export const Experience = () => {
 
 const experience = [
     {
-        title: "Rocky Mountain West Insurance LLC.",
-        position: "React Developer",
-        time: "Aug 2022 - October 2023",
-        location: "Grand Junction, CO",
+        title: "Vizzuality, LLC.",
+        position: "Frontend Engineer",
+        time: "Jun 2023 - Nov 2023",
+        location: "Madrid, Spain - Remote",
         description:
-            "Create functional, high-level, dynamic and reusable components based on mock-up given using Next JS. Coordinated on team for QA, bug fixes, features and code refactoring.",
+            "At Vizzuality, I led the development of high-performance web applications with TypeScript, Next.js, and React.js. I implemented robust state management using Redux.js, integrated compelling data visualizations with Recharts.js, and ensured secure authentication through NextAuth.js. , I also introduced advanced data fetching techniques using React Query to enhance the overall performance and responsiveness of our web applications at Vizzuality.",
+        tech: ["TypeScript", "React", "Nextjs", "Tailwind", "Figma", "StoryBook", "Recharts.js"],
+    },
+    {
+        title: "Multicaret",
+        position: "Frontend Engineer",
+        time: "Dec 2020 - Apr 2021",
+        location: "Remote",
+        description: "Developed and maintained web applications using Laravel and PHP, ensuring high performance and responsiveness.\n" +
+            "Collaborated with cross-functional teams to implement Agile methodologies, facilitating efficient project delivery.\n" +
+            "Applied the Model-View-Controller (MVC) design pattern to create scalable and maintainable code.",
         tech: [
-            "Next JS",
-            "React",
-            "MongoDB",
-            "Postgres",
-            "Python",
+            "Laravel",
+            "PHP",
+            "Vuejs",
+            "Bootstrap",
+            "Figma",
             "Git",
             "Github",
         ],
     },
     {
-        title: "Advance Technologies Integration, LLC.",
-        position: "Senior Javascript Developer",
-        time: "May 2023 - August 2023",
-        location: "Rocklin, California 95765",
+        title: "MigraCode Barcelona",
+        position: "IT tech trainner",
+        time: "Jul 2021 - Jun 2022",
+        location: "Barcelona, Spain",
         description:
-            "I help build and scale core javascript functions and created test units. Also created reusable components for the front end and Azure API integrations.",
-        tech: ["JavaScript", "Vuejs", "Azure API", "Git", "GitLab"],
-    },
-    {
-        title: "Advance Technologies Integration, LLC.",
-        position: "Senior Javascript Developer",
-        time: "Apr 2022 - Jun 2022",
-        location: "Rocklin, California 95765",
-        description:
-            "I help build and scale core javascript functions and created test units. Also created reusable components for the front end and Azure API integrations.",
-        tech: ["JavaScript", "Vuejs", "Azure API", "Git", "GitLab"],
-    },
-    {
-        title: "Rocky Mountain West Insurance LLC.",
-        position: "Senior Vuejs Developer",
-        time: "Aug 2021 - Jan 2022",
-        location: "Grand Junction, CO",
-        description:
-            "Senior Vuejs Developer for Rocky Mountain West Insurance LLC. Created dashboard, reusable components from scratch and integrate api.",
-        tech: ["Vuejs", "MongoDB", "Postgres", "Python", "Git", "Github"],
-    },
-    {
-        title: "Simple Cloudology",
-        position: "Senior React Developer",
-        time: "Jan 2020 - April 2021",
-        location: "Sheridan, Wyoming",
-        description:
-            "Worked as a senior developer and created dynamic reusable components, integrate calendly, messaging functionality and project management features.",
+            "I played a multifaceted role in curriculum development, teaching, mentoring, and community building, with a commitment to empowering aspiring tech professionals, Collaborated closely with senior engineers to design and implement cutting-edge projects, contributing to the continuous enhancement of the Bootcamp syllabus. Led the development of engaging programming content, with a focus on HTML, CSS, JavaScript, React, and NodeJS.",
         tech: [
-            "React",
-            "Nextjs",
-            "Sytled Components",
-            "Firebase Auth",
-            "Websockets",
-            "Calendly",
-            "Git",
-            "Github",
+            "Project Management",
+            "Social Collaboration",
+            "Diversity & Inclusion",
+            "React.js",
+            "JavaScript",
+            "Node.js",
+            "Postgresql",
         ],
-    },
-    {
-        title: "IFormat Logic",
-        position: "Senior Fullstack Developer",
-        time: "Aug 2020 - Dec 2020",
-        location: "Palanginan, Zambales",
-        description:
-            "Managed and created complex projects from start to finish and also collaborated with other developers. Translated requirements into polished, high-level web application.",
-        tech: ["Vuejs", "Laravel", "Tailwind", "Git", "Github"],
-    },
+    }
 ];

@@ -25,11 +25,11 @@ const projects = [
       // tech: ["React", "Nextjs", "Sytled Components", "Firebase Auth", "Laravel"],
       tech: ["React", "Nextjs", "TypeScript", "Tailwind", "Nestjs"],
     description:
-        "empowers companies to measure, manage, and transform agricultural supply chain impacts using an open scientific methodology. I contribute to the development and enhancement of the platform.",
+        "empowers companies to measure, manage, and transform agricultural supply chain impacts using an open scientific methodology.",
     modalContent: (
       <>
         <p>
-            Worked as a Frontend Engineer and created dynamic reusable components
+            Worked as a Frontend Engineer in Vizzuality, and created dynamic reusable components
             that were easily testable and could be shared across projects and Ensured
             that all code is well documented, reusable, efficient, and followed best practices.
             created different types of Charts and Graphs for Data Visualization using Recharts.
@@ -47,13 +47,14 @@ const projects = [
     imgSrc: "/project-imgs/mangrove.png",
     code: "https://github.com/Vizzuality/mangrove-atlas",
     projectLink: "https://www.globalmangrovewatch.org/",
-    tech: ["React", "Redux", "ReduxSaga", "JavaScript"],
+    tech: ["React", "Redux", "ReduxSaga", "SCSS", "JavaScript"],
     description:
         "Global Mangrove Watch a platform that provides remote sensing data and tools for monitoring real-time information on where and what changes there are to mangroves across the world",
     modalContent: (
       <>
         <p>
-          Worked as a Frontend Engineer Developed features for the platform that provides the remote sensing data and tools. created dynamic reusable components and
+          Worked as a Frontend Engineer in Vizzuality,
+          and Developed features for the platform that provides the remote sensing data and tools for monitoring real-time information on where and what changes there are to mangroves across the world. created dynamic reusable components and
           integrating api with react saga and redux,
           created different types of Charts and Graphs for Data Visualization using Recharts.
         </p>
@@ -61,43 +62,62 @@ const projects = [
     ),
   },
   {
-    title: "WorshipHIM",
-    imgSrc: "/project-imgs/wh_app.png",
-    code: "https://www.github.com",
+    title: "CRWN Clothing",
+    imgSrc: "/project-imgs/crwn-clothing.png",
+    code: "https://www.github.com/AbdKousara/crwn-clothing",
     projectLink:
-      "https://play.google.com/store/apps/details?id=com.ellinx.lightapps.worshiphim&hl=en&gl=US",
-    tech: ["React", "React Native", "Styled Components", "Android"],
+      "",
+    tech: ["React", "Redux", "Styled Components", "Firebase"],
     description:
-      "WorshipHIM is a chord and lyrics app developed to help ease everyone in their worship to God.",
+      "React e-commerce project called CRWN Clothing, which provides an online shopping platform for users to purchase clothing items.",
     modalContent: (
       <>
-        <p>
-          WorshipHIM is a chord and lyrics app developed to help ease everyone
-          in their worship to God. So that all may know, from the rising of the
-          sun to its setting, That there is none besides God. He is the Lord and
-          there&apos;s no other! Praise Him, Worship Him!
-        </p>
-        <p>This is a very fun project that i made using React Native.</p>
+          <p>
+          This is a React e-commerce project called CRWN Clothing, which provides an online shopping platform for users to purchase clothing items. 🛍 🤑
+          </p>
+          <p>
+          Features :
+
+            User authentication and authorization
+          - Add items to cart and checkout functionality
+          - Browse items by categories
+          - Search for items
+          - Integration with Stripe payment gateway
+          </p>
+
+          <p>
+          Technologies Used :
+
+            React
+          - React Router
+          - ContextApi
+          - Advanced Hooks
+          - Redux
+          - Typescript
+          - Firebase
+          - Stripe
+          - SCSS
+          - Styled-Components
+          - Node.js
+          </p>
       </>
     ),
   },
   {
-    title: "WorshipHIM Landing Page",
-    imgSrc: "/project-imgs/worshiphim.png",
-    code: "https://www.github.com",
-    projectLink: "https://worshiphim.vercel.app/",
-    tech: ["React", "Nextjs", "Tailwind", "Google Play Scrapper", "Ko-Fi"],
+    title: "Natours Landing Page",
+    imgSrc: "/project-imgs/natours.png",
+    code: "https://www.github.com/",
+    projectLink: "",
+    tech: ["HTML", "SCSS", "Animation"],
     description:
-      "Landing Page of WorshipHIM mobile application for showcasing feature rich and tools of the app.",
+      "Landing Page For tourism agency.",
     modalContent: (
       <>
         <p>
-          This is another self project that i made to showcase our mobile app.
+          This is self project that i made .
         </p>
         <p>
-          I integrated ko-fi donation and uses Template for this Nextjs Project.
-          I also use a plugin for scrapping data from our google play to display
-          directly on the landing page.
+
         </p>
       </>
     ),
