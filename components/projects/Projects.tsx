@@ -110,11 +110,11 @@ const projects = [
     projectLink: "https://abdkousara.github.io/TravelAgencyWebsite/",
     tech: ["HTML", "SCSS", "Animation"],
     description:
-      "Landing Page For tourism agency.",
+      "Landing Page For Travel Agency",
     modalContent: (
       <>
         <p>
-          This is self project that i made .
+          This is self project that i have made with advanced Sass and animations.
         </p>
       </>
     ),
