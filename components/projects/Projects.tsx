@@ -64,9 +64,9 @@ const projects = [
   {
     title: "CRWN Clothing",
     imgSrc: "/project-imgs/crwn-clothing.png",
-    code: "https://www.github.com/AbdKousara/crwn-clothing",
+    code: "https://www.github.com/AbdKousara/crwn-clothing-v2",
     projectLink:
-      "",
+      "https://crwn-clothing-v2-pi.vercel.app/",
     tech: ["React", "Redux", "Styled Components", "Firebase"],
     description:
       "React e-commerce project called CRWN Clothing, which provides an online shopping platform for users to purchase clothing items.",
@@ -115,9 +115,6 @@ const projects = [
       <>
         <p>
           This is self project that i made .
-        </p>
-        <p>
-
         </p>
       </>
     ),
