@@ -53,10 +53,9 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Worked as a Frontend Engineer in Vizzuality,
-          and Developed features for the platform that provides the remote sensing data and tools for monitoring real-time information on where and what changes there are to mangroves across the world. created dynamic reusable components and
+          Worked as a Frontend Engineer in Vizzuality created dynamic reusable components and
           integrating api with react saga and redux,
-          created different types of Charts and Graphs for Data Visualization using Recharts.
+          created different types of Charts and Graphs for Data Visualization using Recharts. improved the Map view and Tilesets using Mapbox
         </p>
       </>
     ),
@@ -73,7 +72,7 @@ const projects = [
     modalContent: (
       <>
           <p>
-          This is a React e-commerce project called CRWN Clothing, which provides an online shopping platform for users to purchase clothing items. 🛍 🤑
+          This is a React e-commerce project called CRWN Clothing, which provides an online shopping platform for users to purchase clothing items. 🛍🤑
           </p>
           <p>
           Features :
