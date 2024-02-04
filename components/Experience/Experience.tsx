@@ -37,7 +37,7 @@ const experience = [
             "Bootstrap",
             "Figma",
             "Git",
-            " Github",
+            "Github",
         ],
     },
     {
