@@ -14,14 +14,14 @@ export const About = () => {
                     <Reveal>
                         <><div className={`${styles.name} ${styles.aboutText}`}>
                             <div className={styles.highlightFirstLetter}>Howdy! 🤠 I&apos;m</div>
-                            <div className={styles.highlightFirstLetter}>Abdul</div>
+                            <div className={styles.highlightFirstLetter}>Kader</div>
                             <div className={styles.highlightFirstLetter}>Kousara.</div>
                         </div>
                         <p className={styles.aboutText}>
                             highly motivated and passionate software developer.
                             <br/>
-                            I have experience working in Backend and Frontend development, but currently I&apos;m
-                            focused in frontend, and I specialize in The React Ecosystem. I&apos;m passionate about
+                            I have experience working in Backend and Frontend development, Currently, my focus is primarily on frontend development,
+                            Especially The Reactjs Ecosystem. I&apos;m passionate about
                             creating beautiful, responsive websites that provide a great user experience.
                         </p></>
                     </Reveal>

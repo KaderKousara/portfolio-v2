@@ -26,20 +26,20 @@ export const NavBarMenu = () => {
     }, []);
 
     return (
-        <div style={{background: "var(--background-dark)"}}>
+        <div style={{ background: "var(--background-dark)" }}>
             <motion.nav
                 initial={{ x: -70 }}
                 animate={{ x: 0 }}
                 transition={{ duration: 0.5 }}
                 className={styles.sideBar}
             >
-        <span className={styles.logo} onClick={() => {
-            document.location.hash === "" ?
-                document.getElementById("main")?.scrollIntoView() :
-                document.location.hash = '';
-        }}>
-          AK<span>.</span>
-        </span>
+                <span className={styles.logo} onClick={() => {
+                    document.location.hash === "" ?
+                        document.getElementById("main")?.scrollIntoView() :
+                        document.location.hash = '';
+                }}>
+                    K<span>.</span>
+                </span>
                 <motion.a
                     initial={{ x: -70 }}
                     animate={{ x: 0 }}
