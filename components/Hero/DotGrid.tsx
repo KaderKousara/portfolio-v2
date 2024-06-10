@@ -1,5 +1,5 @@
 import styles from "./dotgrid.module.scss";
-import anime from "animejs"
+import anime from "animejs";
 
 export const DotGrid = () => {
   const GRID_WIDTH = 25;
