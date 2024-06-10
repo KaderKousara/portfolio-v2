@@ -1,5 +1,5 @@
-import {SectionHeader} from "@/components/utils/SectionHeader";
-import {ExperienceItem} from "./ExperienceItem";
+import { SectionHeader } from "@/components/utils/SectionHeader";
+import { ExperienceItem } from "./ExperienceItem";
 
 export const Experience = () => {
     return (
@@ -16,29 +16,11 @@ const experience = [
     {
         title: "Vizzuality, LLC.",
         position: "Frontend Engineer",
-        time: "Jun 2023 - Nov 2023",
+        time: "Jun 2023 - Dec 2023",
         location: "Madrid, Spain - Remote",
         description:
             "At Vizzuality, I led the development of high-performance web applications with TypeScript, Next.js, and React.js. I implemented robust state management using Redux.js, integrated compelling data visualizations with Recharts.js, and ensured secure authentication through NextAuth.js. , I also introduced advanced data fetching techniques using React Query to enhance the overall performance and responsiveness of our web applications at Vizzuality.",
         tech: ["TypeScript", "React", "Nextjs", "Tailwind", "Figma", "StoryBook", "Recharts.js"],
-    },
-    {
-        title: "Multicaret",
-        position: "Frontend Engineer",
-        time: "Dec 2020 - Apr 2021",
-        location: "Remote",
-        description: "Developed and maintained web applications using Laravel and PHP, ensuring high performance and responsiveness.\n" +
-            "Collaborated with cross-functional teams to implement Agile methodologies, facilitating efficient project delivery.\n" +
-            "Applied the Model-View-Controller (MVC) design pattern to create scalable and maintainable code.",
-        tech: [
-            "Laravel",
-            "PHP",
-            "Vuejs",
-            "Bootstrap",
-            "Figma",
-            "Git",
-            "Github",
-        ],
     },
     {
         title: "MigraCode Barcelona",
@@ -56,5 +38,23 @@ const experience = [
             "Node.js",
             "Postgresql",
         ],
-    }
+    },
+    {
+        title: "Multicaret",
+        position: "Frontend Engineer",
+        time: "Dec 2020 - May 2021",
+        location: "Remote",
+        description: "Developed and maintained web applications using Laravel and PHP, ensuring high performance and responsiveness.\n" +
+            "Collaborated with cross-functional teams to implement Agile methodologies, facilitating efficient project delivery.\n" +
+            "Applied the Model-View-Controller (MVC) design pattern to create scalable and maintainable code.",
+        tech: [
+            "Laravel",
+            "PHP",
+            "Vuejs",
+            "Bootstrap",
+            "Figma",
+            "Git",
+            "Github",
+        ],
+    },
 ];
